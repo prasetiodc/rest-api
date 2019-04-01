@@ -9,3 +9,6 @@ ROUTE | HTTP | Header(s) | Body | Description |
 `/api/users`|`PUT`| none | `username: String` (Required), `password: String`(Required), `role: String`(Required)| Update a user with new info|
 `/api/signup`|`POST`| none | `username: String`(Required), `password: String`(Required) | Sign up with new user info | 
 `/api/signin`|`POST`| none | `username: String`(Required), `password: String`(Required) | Sign in and get an access token based on credentials|  
+
+Heroku :
+https://strawberry-shortcake-61857.herokuapp.com/
