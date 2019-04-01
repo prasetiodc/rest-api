@@ -5,7 +5,7 @@ const {authentication} = require('../middleware/authentication')
 const {authorization} = require('../middleware/authorization')
 
 
-router.post('/signup', authentication, authorization, user.create)
+router.post('/signup', user.create)
 
 router.post('/signin', sign.signin)
 
